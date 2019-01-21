@@ -1,0 +1,18 @@
+#设置服务名儿
+spring:
+  application:
+    name: eurka-server
+#端口
+server:
+  port: 8761
+
+
+eureka:
+  instance:
+    hostname: localhost #设置当前实例的主机名称
+  client:
+    registerWithEureka: false #启动服务注册 默认true
+    fetchRegistry: false  #检索服务 默认为true
+    serviceUrl: #指定服务注册中心地址，类型为 HashMap，并设置有一组默认值，默认的Key为 defaultZone；默认的Value为 http://localhost:8761/eureka ，如果服务注册中心为高可用集群时，多个注册中心地址以逗号分隔。
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/eureka-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-serice-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/frist-eureka-clien" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fristeureka" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-ribbon" />
+        <module name="eureka-serice-feign" />
+        <module name="frist-eureka-clien" />
+        <module name="fristeureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-ribbon" target="1.8" />
+      <module name="eureka-serice-feign" target="1.8" />
+      <module name="frist-eureka-clien" target="1.8" />
+      <module name="fristeureka" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
